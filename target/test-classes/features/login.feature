@@ -4,5 +4,5 @@ Feature: Login feature
   Scenario: Login to the application
     Given user is navigated to HRMS application
     When user enters valid username and password
-    And user click on login button
+    And user clicks on login button
     Then user is logged in successfully
